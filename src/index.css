@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+.experience-container {
+  margin-bottom: 0px; /* Add margin between the Experience section and the next section */
+}
+
+.flipped {
+  background-color: #f0f0f0; /* Change this to the desired color */
+}
+
+
+.about-container{
+  margin-bottom: 0px; /* Add margin between the Experience section and the next section */
+}
+
+.extra-container{
+  margin-bottom: 0px; /* Add margin between the Experience section and the next section */
+}
+
+.project-card-container {
+  position: relative; /* Ensure proper stacking context */
+  overflow: hidden; /* Hide overflow to prevent the image from overflowing its container */
+}
+
+.image-container {
+  border-radius: 16px; /* Adjust the border radius as per your design */
+  overflow: hidden; /* Hide overflow to clip the image within its container */
+}
+
+.click-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+.project-container-padding {
+  padding-top: 0px; /* Adjust the top padding as needed */
+  padding-bottom: 0px; /* Adjust the bottom padding as needed */
+}
+
+
+.project-image {
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: 100%; /* Ensure the height adjusts proportionally */
+  transition: transform 0.3s ease-in-out; /* Add smooth transition effect */
+}
+
+.project-card-container:hover .project-image {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+.project-card-container:hover .project-image {
+  transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+
+
+
+.experience-item {
+  margin-bottom: 20px; /* Add margin between individual experience items */
+}
+
+.experience-content {
+  margin-bottom: 0px; /* Add margin between the content and the next section */
+}
+
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+/* styles.module.css or global CSS file */
+.mobileText {
+  @media (max-width: 768px) {
+      font-size: 14px; /* Define your desired font size for mobile */
+  }
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.violet-gradient {
+  background: #add8e6; /* Light blue */
+  background: linear-gradient(0deg, #99d5ea 0%, #a65aed 100%); /* Light blue to a slightly darker shade of purple, left to right */
+  background: -webkit-linear-gradient(0deg, #99d5ea 0%, #a65aed 100%);
+}
+
+.bg-gradient{
+  background: linear-gradient(45deg, #3a94c470, #7b68ee); /* Blue to Purple background */
+}
+
+.bg-transparent{
+  background: linear-gradient(45deg, #3a94c400, #7c68ee00); /* Blue to Purple background */
+}
+
+.bg-gradient-lighter{
+  background: linear-gradient(45deg, #344b75, #18305cb8); /* Blue to Purple background */
+}
+
+.bg-gradient-blue{
+  background: linear-gradient(45deg, #4f88f2, #0a3ea0b8); /* Blue to Purple background */
+}
+
+
+
+.bg-gradient-transparent{
+  background: linear-gradient(45deg, #3a94c422, #7c68ee2e); /* Blue to Purple background */
+}
+
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+
+.purple-text-gradient {
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #7f00ff,
+    #e100ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+.orange-text-gradient {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f12711,
+    #f5af19
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f12711,
+    #f5af19
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-text-gradient {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #7a00ec,
+    #c383ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #7a00ec,
+    #c383ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* Add shadow effect to the blue circles */
+.blue {
+  background-color: #3145a7a1;
+}
+
+/* Add shadow effect to the purple circles */
+.purple {
+  background-color: rgba(195, 53, 195, 0.336);
+}
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Adjust top margin between rows */
+  margin-bottom: 50px; /* Adjust bottom margin between rows */
+  padding-bottom: 50px; /* Add padding to prevent layout shift */
+}
+
+.tech-circle {
+  position: relative;
+  width: 140px; /* Adjust size as needed */
+  height: 140px; /* Adjust size as needed */
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px; /* Add margin between circles */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-name-container {
+  text-align: center;
+}
+
+.tech-name {
+  font-size: 14px;
+}
+
+
+
+/* Make the icon fill the circle */
+.icon {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Adjust the margin between rows */
+.tech-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Adjust the margin to push circles down */
+.tech-circle:nth-child(n),
+.tech-circle:nth-child(n) {
+  margin-top: 50px;
+}
+
+/* Adjust the margin to push circles up */
+.tech-circle:nth-child(n),
+.tech-circle:nth-child(n) {
+  margin-bottom: 0px;
+}
+
+
+.metallic-card {
+  font-size: 14px;
+  padding: 16px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  color: #000;
+  background: linear-gradient(45deg, #3a94c470, #7b68ee); /* Blue to Purple background */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+  position: relative; /* Add position relative to contain pseudo-element */
+
+  /* Add a pseudo-element for the glow effect */
+  &::before {
+    content: '';
+    position: absolute;
+    top: -10px; /* Adjust as needed */
+    left: -10px; /* Adjust as needed */
+    right: -10px; /* Adjust as needed */
+    bottom: -10px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.2); /* Glow color with transparency */
+    border-radius: 30px; /* Adjust for the desired roundness */
+    z-index: -1; /* Behind the card content */
+    filter: blur(20px); /* Add blur effect */
+  }
+}
+
+/* canvas- styles */
+.canvas-loader {
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin 1.1s infinite ease;
+  transform: translateZ(0);
+}
+
+@keyframes mulShdSpin {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #ffffff,
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.5),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7),
+      1.8em -1.8em 0 0em #ffffff, 2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.5),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7), 2.5em 0em 0 0em #ffffff,
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.7), 1.75em 1.75em 0 0em #ffffff,
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.5),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.7), 0em 2.5em 0 0em #ffffff,
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.5),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.7), -1.8em 1.8em 0 0em #ffffff,
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.5),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7), -2.6em 0em 0 0em #ffffff,
+      -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2),
+      1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+      2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+      1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+      0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+      -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
+      -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
