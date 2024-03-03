@@ -144,22 +144,7 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Automation and Control Engineering Intern @ Control Engineering Inc.",
-      location: "(Remote) California, USA",
-      company_name: "Control Engineering Inc.",
-      icon: control_eng,
-      company_website: "https://www.controlengineering.com/",
-      iconBg: "#383E56",
-      date: "May 2022 - Aug 2022",
-      tags: ["SQL", "Ignition SCADA", "HMI Development", "PLC Programming", "Sales & Marketing"],
-      points: [
-        "Developed HMI screens with proper navigation for an open project with the main objective of optimization.",
-        "Worked with different Automation softwares such as Ignition SCADA software and Connected Components Workbench.",
-        "Participated in Air Knife Installation Project in Amazon facility. Took a part in verifying installation, downloading PLC program and configuring the camera used by the sensor.",
-        "Gained an insight on the company's sales and marketing cycle.",
-      ],
-    },
+    
     {
       title: "Software Engineering Intern - Network Efficiency Team @ Telus",
       company_name: "Tesla",
@@ -175,6 +160,22 @@ import {
         "Optimized the associated MySQL database for seamless data management.",
         "Modified Python code to predict the reserve time of batteries and integrated Lithium battery behaviour in addition to lead-acid batteries.",
         "Collaborated with a cross-functional team to create an AI model for emergency response by leveraging various data sources.",
+      ],
+    },
+    {
+      title: "Automation and Control Engineering Intern @ Control Engineering Inc.",
+      location: "(Remote) California, USA",
+      company_name: "Control Engineering Inc.",
+      icon: control_eng,
+      company_website: "https://www.controlengineering.com/",
+      iconBg: "#383E56",
+      date: "May 2022 - Aug 2022",
+      tags: ["SQL", "Ignition SCADA", "HMI Development", "PLC Programming", "Sales & Marketing"],
+      points: [
+        "Developed HMI screens with proper navigation for an open project with the main objective of optimization.",
+        "Worked with different Automation softwares such as Ignition SCADA software and Connected Components Workbench.",
+        "Participated in Air Knife Installation Project in Amazon facility. Took a part in verifying installation, downloading PLC program and configuring the camera used by the sensor.",
+        "Gained an insight on the company's sales and marketing cycle.",
       ],
     }
   ];
