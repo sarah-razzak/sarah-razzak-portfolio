@@ -151,6 +151,28 @@
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
+.blue-text {
+    background: linear-gradient(to top, #74ceff, #47cff9); /* Standard syntax */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Hide original text */
+}
+
+.pink-text {
+  background: linear-gradient(to top, #ec9af9, #f473dc); /* Standard syntax */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Hide original text */
+}
+
+.purple-text {
+  background: linear-gradient(to top, #b54ef0, #c773f4); /* Standard syntax */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; /* Hide original text */
+}
+
+
 .purple-text-gradient {
   background: #7f00ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(

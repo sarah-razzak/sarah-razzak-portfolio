@@ -35,8 +35,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
 
         <div className="mt-5">
-          <h3 className="text-primary font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-primary font-bold text-[14px]">{description}</p>
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-secondary font-bold text-[14px]">{description}</p>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
@@ -64,8 +64,7 @@ const Projects = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna felis, scelerisque ut massa sed, mattis luctus sem. Proin vulputate eget nibh a tristique. Aenean vehicula tincidunt quam ac maximus. Curabitur sollicitudin euismod pretium. Donec vitae turpis justo. In ornare quam arcu, vitae venenatis quam ullamcorper quis. Duis iaculis lectus ut rutrum scelerisque. Quisque ante lorem, sollicitudin sit amet nulla et, posuere dapibus risus. Quisque vel commodo leo.
-          </motion.p>
+In addition to my professional experience, I've dedicated time to projects that reflect my passion for software and hardware applications. These projects showcase my ability to innovate, problem-solve, and collaborate effectively. Below are some highlights:          </motion.p>
         </div>
 
         <div className="mt-20 flex flex-wrap gap-7">

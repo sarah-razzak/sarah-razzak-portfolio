@@ -216,15 +216,15 @@ import {
       tags: [
         {
           name: "Python",
-          color: "pink-text-gradient",
+          color: "purple-text",
         },
         {
           name: "Simulink",
-          color: "pink-text-gradient",
+          color: "blue-text",
         },
         {
           name: "Serial-Communication",
-          color: "pink-text-gradient",
+          color: "pink-text",
         },
       ],
       image: carrent,
@@ -237,15 +237,15 @@ import {
       tags: [
         {
           name: "Verilog",
-          color: "pink-text-gradient",
+          color: "purple-text",
         },
         {
           name: "Assembly",
-          color: "pink-text-gradient",
+          color: "blue-text",
         },
         {
           name: "Embedded-Systems",
-          color: "pink-text-gradient",
+          color: "pink-text",
         },
       ],
       image: jobit,
@@ -258,15 +258,15 @@ import {
       tags: [
         {
           name: "Multisim",
-          color: "pink-text-gradient",
+          color: "purple-text",
         },
         {
           name: "Oscilloscope",
-          color: "pink-text-gradient",
+          color: "blue-text",
         },
         {
           name: "Circuit-Design",
-          color: "pink-text-gradient",
+          color: "pink-text",
         },
       ],
       image: tripguide,
