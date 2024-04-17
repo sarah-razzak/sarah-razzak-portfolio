@@ -58,7 +58,7 @@ import {
     {
       title: "Engineers Without Borders",
       description: [
-        "Facilitated seamless communication between EWB chapters in Central Ontario.", 
+        "Facilitated seamless communication between EWB chapters in Ontario.", 
         "Fostered collaboration and knowledge exchange among engineers from diverse backgrounds.", 
         "Contributed to advancing the organization's goal of leveraging engineering for positive social change."],
   },
