@@ -155,11 +155,10 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2023 - May 2024",
       points: [
-        "Designed and developing a RESTful API for a shopping cart / planning platform used by power planners to manage central offices.",
-        "Utilized Django Rest Framework to streamline the API development, ensuring scalability and security.",
-        "Optimized the associated MySQL database for seamless data management.",
-        "Modified Python code to predict the reserve time of batteries and integrated Lithium battery behaviour in addition to lead-acid batteries.",
-        "Collaborated with a cross-functional team to create an AI model for emergency response by leveraging various data sources.",
+        "Designed and developed a RESTful API for a shopping cart/planning platform, catering to power planners overseeing central office management. Leveraged Django Rest Framework for scalable and secure API development, resulting in increased efficiency and streamlined operations for over 1000 users.",
+        "Optimized the MySQL database infrastructure to streamline data management within the platform, reducing planning time and annual request volume while ensuring seamless scalability.",
+        "Enhanced Python code functionality across Telus-managed sites, predicting reserve times for batteries and integrating Lithium battery behaviour alongside lead-acid batteries. Thee optimizations significantly strengthened critical infrastructure management, ensuring uninterrupted services for Telus customers.",
+        "Collaborated with a cross-functional team to develop an AI model for emergency response, harnessing insights from diverse data sources. This initiative not only enhanced emergency response capabilities but also strengthened Telus’s resilience in managing unforeseen events impacting central offices. "
       ],
     },
     {
@@ -172,10 +171,10 @@ import {
       date: "May 2022 - Aug 2022",
       tags: ["SQL", "Ignition SCADA", "HMI Development", "PLC Programming", "Sales & Marketing"],
       points: [
-        "Developed HMI screens with proper navigation for an open project with the main objective of optimization.",
-        "Worked with different Automation softwares such as Ignition SCADA software and Connected Components Workbench.",
-        "Participated in Air Knife Installation Project in Amazon facility. Took a part in verifying installation, downloading PLC program and configuring the camera used by the sensor.",
-        "Gained an insight on the company's sales and marketing cycle.",
+        "Engineered intuitive HMI screens, enhancing user experience and facilitating seamless navigation, contributing to optimization goals.",
+        "Utilized Ignition SCADA software and Connected Components Workbench to streamline automation processes, foresting efficiency and productivity.",
+        "Played a pivotal role in the successful execution of an Air Knife device installation Project at an Amazon facility, ensuring precise installation, PLC program implementation, and camera configuration for sensor functionality.",
+        "Acquired valuable insights into the company’s sales and marketing strategies, enhancing understanding of the business cycle and contributing to informed decision-making.",
       ],
     }
   ];
