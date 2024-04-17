@@ -60,7 +60,7 @@ import {
       description: [
         "Facilitated seamless communication between EWB chapters in Ontario.", 
         "Fostered collaboration and knowledge exchange among engineers from diverse backgrounds.", 
-        "Contributed to advancing the organization's goal of leveraging engineering for positive social change."],
+        "Contributed to the organization's mission of leveraging engineering for positive social change."],
   },
     {
       title: "Forumla Electric",
