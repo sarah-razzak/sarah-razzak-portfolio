@@ -57,19 +57,22 @@ import {
   const extra = [
     {
       title: "Engineers Without Borders",
-      description: ["Conference Coordinator (2021-2022)   ", "VP Operations (2022-2023)", "Community Distribution Team (2023-Present)"],
+      description: [
+        "Facilitated seamless communication between university and professional chapters in Central Ontario within EWB Canada's community distribution team.", 
+        "Fostered collaboration and knowledge exchange among engineers from diverse backgrounds.", 
+        "Contributed to advancing the organization's goal of leveraging engineering for positive social change."],
   },
     {
       title: "Forumla Electric",
-      description: ["Software and Vehicle Control Team Member (2021-2023)"],
+      description: ["Developed and implemented communication protocols and conducted comprehensive CAN testing for an electric vehicle."],
     },
     {
       title: "Engineers of Tomorrow",
-      description: ["Future City Experience Volunteer (2020)"],
+      description: ["Mentored a seventh-grade class through interactive virtual meetings, providing guidance and support as they tackled various engineering challenges."],
     },
     {
       title: "Battery Workforce Challenge",
-      description: ["McMaster Software Algorithms Team Member (2023-Present)"],
+      description: ["Contributed to the design, testing, and integration of advanced battery packs for a competitive environment, driving innovation in battery technology.", "Gained critical project management, teamwork, and problem-solving skills through hands-on experience."],
     },
   ];
   
@@ -155,10 +158,11 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2023 - May 2024",
       points: [
-        "Designed and developed a RESTful API for a shopping cart/planning platform, catering to power planners overseeing central office management. Leveraged Django Rest Framework for scalable and secure API development, resulting in increased efficiency and streamlined operations for over 1000 users.",
-        "Optimized the MySQL database infrastructure to streamline data management within the platform, reducing planning time and annual request volume while ensuring seamless scalability.",
-        "Enhanced Python code functionality across Telus-managed sites, predicting reserve times for batteries and integrating Lithium battery behaviour alongside lead-acid batteries. Thee optimizations significantly strengthened critical infrastructure management, ensuring uninterrupted services for Telus customers.",
-        "Collaborated with a cross-functional team to develop an AI model for emergency response, harnessing insights from diverse data sources. This initiative not only enhanced emergency response capabilities but also strengthened Telus’s resilience in managing unforeseen events impacting central offices. "
+        "Designed and developed a user-friendly RESTful API for a power planning platform using Django Rest Framework , significantly improving efficiency and productivity for over 1000+ users.",
+        "Developed comprehensive API test cases using JSON and Postman to ensure reliability and functionality.",
+        "Strategically optimized the MySQL database infrastructure to facilitate streamlined data management, reducing planning time and annual request volume.",
+        "Enhanced Python code across Telus-managed sites, leading to improvements in critical infrastructure management, ensuring uninterrupted services for Telus customers.",
+        "Collaborated on an AI model aimed at strengthening emergency response capabilities, hence enhancing resilience and readiness for unforeseen events within central office environments."
       ],
     },
     {
@@ -171,10 +175,10 @@ import {
       date: "May 2022 - Aug 2022",
       tags: ["SQL", "Ignition SCADA", "HMI Development", "PLC Programming", "Sales & Marketing"],
       points: [
-        "Engineered intuitive HMI screens, enhancing user experience and facilitating seamless navigation, contributing to optimization goals.",
-        "Utilized Ignition SCADA software and Connected Components Workbench to streamline automation processes, foresting efficiency and productivity.",
-        "Played a pivotal role in the successful execution of an Air Knife device installation Project at an Amazon facility, ensuring precise installation, PLC program implementation, and camera configuration for sensor functionality.",
-        "Acquired valuable insights into the company’s sales and marketing strategies, enhancing understanding of the business cycle and contributing to informed decision-making.",
+        "Engineered intuitive HMI screens, enhancing user experience and navigation, aligning with optimization goals.",
+        "Utilized Ignition SCADA software and Connected Components Workbench to streamline automation processes, fostering efficiency and productivity.",
+        "Played a pivotal role in successfully executing an Air Knife device installation project in an amazon facility, ensuring precise installation and functionality of PLC programs and cameras.",
+        "Acquired valuable insights into the company's sales and marketing strategies, contributing to informed decision-making and a deeper understanding of the business cycle."
       ],
     }
   ];
@@ -210,8 +214,7 @@ import {
     {
       name: "Pacemaker + GUI Integration",
       description:
-        "Created a pacemaker system with Simulink for hardware simulation and a Python GUI. The GUI supports multiple users, enabling simultaneous monitoring and control. Utilized serial communication for seamless interaction between GUI and hardware, offering real-time data plotting and parameter programming.",
-
+      "Engaged in collaborative research, development, and testing of a real-time safety-critical system, notably crafting a pacemaker. Leveraging MATLAB Simulink and Visual Basic, constructed a functional device control module. Key features included user support, serial communication, and real-time plotting of pacemaker data, all aimed at ensuring robust performance and compliance with safety standards.",
       tags: [
         {
           name: "Python",
@@ -232,7 +235,7 @@ import {
     {
       name: "ASIP Stepper Motor + SDRAM Controller",
       description:
-        "Engineered an ASIP with Verilog on an Intel Cyclone V FPGA to oversee stepper motor operations, featuring a 14-module datapath, control FSM, and motor driver interface with an SN754410 Half-H Driver chip; utilized Quartus Prime for comprehensive simulation and assembly test program development.",
+        "Crafted an Application-Specific Instruction Set Processor (ASIP) using Verilog on an Intel Cyclone V FPGA, complete with a 14-module data path and control Finite State Machine (FSM) to regulate a stepper motor. Integrated a motor driver interface circuit employing an SN754410 Half-H Driver chip for seamless communication with the motor. Conducted simulation and testing using Quartus Prime, and developed assembly test programs to validate functionality and optimize performance.",
       tags: [
         {
           name: "Verilog",
@@ -253,7 +256,7 @@ import {
     {
       name: "Finite State Machine",
       description:
-        "Designed and implemented a digital circuit to display my student number using sequential logic design principles. Constructed a physical model with a SoulBay power supply and transistor for clock signal generation. Encountered challenges during simulation and construction due to circuit complexity, resolved using a Hantek oscilloscope for diagnostics, ensuring project integrity.",
+      "Developed a digital circuit to continuously showcase my student number on a seven-segment display. Utilized logic gate chips to build sequential logic, meticulously debugging the system with an oscilloscope to guarantee precise functionality and timing accuracy.",
       tags: [
         {
           name: "Multisim",
