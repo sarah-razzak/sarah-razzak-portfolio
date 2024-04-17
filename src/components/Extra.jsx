@@ -16,7 +16,7 @@ const ExtraCard = ({ index, title, description }) => {
     return (
       <motion.div
         variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
-        className={`w-[250px] h-[300px] bg-gradient-lighter p-[1px] rounded-[20px] shadow-card relative`}
+        className={`w-[250px] h-[350px] bg-gradient-lighter p-[1px] rounded-[20px] shadow-card relative`}
         onClick={handleCardFlip}
       >
         <div
