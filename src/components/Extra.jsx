@@ -20,7 +20,7 @@ const ExtraCard = ({ index, title, description }) => {
         onClick={handleCardFlip}
       >
         <div
-          className={`bg-gradient rounded-[20px] p-5 w-[250px] h-[300px] flex justify-evenly items-center flex-col ${
+          className={`bg-gradient rounded-[20px] p-5 w-[250px] h-[350px] flex justify-evenly items-center flex-col ${
             isFlipped ? 'bg-transparent' : ''
           }`}
         >
